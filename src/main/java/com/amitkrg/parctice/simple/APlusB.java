@@ -7,6 +7,9 @@ import java.util.Scanner;
  * <p>
  * Constraints: 0 <= 'a', 'b' <= 9
  * <p>
+ * Objective: To understand the Scanner class and utilize to read input
+ * from standard input stream.
+ * <p>
  * Author: amit024003
  * Start Date: 08/27/2016
  * Last Modified: 08/27/2016
