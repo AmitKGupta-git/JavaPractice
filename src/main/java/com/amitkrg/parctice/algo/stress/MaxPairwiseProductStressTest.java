@@ -23,12 +23,12 @@ public class MaxPairwiseProductStressTest {
     public static void main(String[] args) {
         Random rand = new Random(10);
         while (true) {
-            int n = rand.nextInt() % 10 + 2;
+            int n = rand.nextInt(10) % 10 + 2;
             System.out.println(n);
             int[] numbers = new int[n];
 
             for (int i = 0; i < n; i++) {
-                numbers[i] = rand.nextInt() % 100000;
+                numbers[i] = rand.nextInt(100000) % 100000;
                 System.out.print(numbers[i] + " ");
             }
             System.out.println();

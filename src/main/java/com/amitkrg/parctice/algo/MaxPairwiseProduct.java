@@ -25,7 +25,7 @@ import java.util.StringTokenizer;
 public class MaxPairwiseProduct {
 
     public static long getMaxPairwiseProduct(int[] numbers) {
-        long result = 0;
+        long result = Long.MIN_VALUE;
         int n = numbers.length;
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
